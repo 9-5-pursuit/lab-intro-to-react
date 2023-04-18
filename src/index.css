@@ -1,5 +1,6 @@
 body {
-  font-family: sans-serif;
+  background-color: black;
+  font-family: Helvetica, sans-serif;
   margin: 0;
 }
 
@@ -8,4 +9,90 @@ body,
 #root {
   height: 100%;
   width: 100%;
+}
+
+/* ------ APP -------- */
+
+.App {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 30px repeat(2, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+
+/* ------ NAV -------- */
+
+.NavBar {
+  background-color: rgb(201, 0, 0);
+  height: max-content;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: right;
+  grid-area: 1 / 1 / 2 / 4;
+}
+button {
+  margin: 10px;
+}
+
+/* ------ USER PROFILE -------- */
+
+.UserProfile {
+  background-color: rgb(78, 12, 12);
+  border: 2px solid red;
+  grid-area: 2 / 1 / 3 / 3;
+  margin-top: 30px;
+  margin-left: 30px;
+  text-align: left;
+}
+#userPic {
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+.UserProfile p {
+  color: gray;
+  font-size: smaller;
+}
+
+/* ------ POSTS -------- */
+
+.Posts {
+  background-color: rgb(78, 12, 12);
+  border: 2px solid red;
+  grid-area: 3 / 1 / 4 / 3;
+  margin-left: 30px;
+  text-align: center;
+}
+.Post {
+  border: 2px dashed Black;
+  margin: 10px;
+  padding: 5px;
+}
+.Post p {
+  color: gray;
+  font-size: smaller;
+}
+
+/* ------ CONTACTS ---------- */
+
+.Contacts {
+  background-color: rgb(78, 12, 12);
+  border: 2px solid red;
+  padding: 10px;
+  margin-top: 30px;
+  text-align: center;
+  grid-area: 2 / 3 / 4 / 4;
+}
+.ContactUserCard {
+  border: 2px dotted black;
+  margin: 10px;
+}
+.ContactUserCard p {
+  color: gray;
+  font-size: smaller;
+}
+#contactsPic {
+  float: left;
+  margin: 0;
 }
