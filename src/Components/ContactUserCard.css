@@ -1,0 +1,28 @@
+#contact1,
+#contact2,
+#contact3 {
+  border-color: black;
+  border-style: solid;
+  width: 30%;
+  height: 30%;
+  padding-left: 100px;
+  margin-left: 50px;
+}
+
+#con1,
+#con2,
+#con3 {
+  font-size: small;
+}
+
+#cont1,
+#cont2,
+#cont3 {
+  font-size: medium;
+}
+
+img {
+  float: right;
+  padding: 50px;
+  margin: 0%;
+}

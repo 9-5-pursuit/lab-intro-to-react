@@ -1,0 +1,9 @@
+#contacts {
+  width: 30%;
+  border-color: black;
+  border-style: solid;
+  padding-left: 10px;
+  text-align: center;
+  height: auto;
+  overflow: hidden;
+}
