@@ -1,0 +1,33 @@
+#post1,
+#post2,
+#post3 {
+  border-color: black;
+  border-style: solid;
+  margin: 5px;
+}
+
+#post-p1,
+#post-p2,
+#post-p3 {
+  font-size: small;
+}
+
+#post1,
+#post2,
+#post3 {
+  padding-top: 10px;
+}
+
+/* #user1 {
+    font-size: medium;
+}
+
+#user2 {
+    font-size: small;
+
+}
+
+#user3 {
+    font-size: x-small;
+
+} */
