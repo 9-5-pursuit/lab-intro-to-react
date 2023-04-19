@@ -13,7 +13,7 @@ function App() {
     setPursuit(!pursuit);
   }
   return (
-    <>
+    <div style={{ backgroundColor: 'lightseagreen' }}>
       <NavBar handleClick={handleButtonClick} />
       {pursuit && (
         <div className="mainArea" style={{ display: 'flex' }}>
@@ -27,15 +27,15 @@ function App() {
         </div>
       )}
       {!pursuit && (
-        <div className="pursuit" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
-          <p>
+        <div className="pursuit" style={{ textAlign: 'center', alignItems: 'center', height: '100vw' }}>
+          <p style={{ color: 'gray' }}>
             Pursuit is a Full Stack and Computer Programming learning organization
           </p>
           <img src="https://i.imgur.com/ULRtXMv.jpg" style={{ margin: '5%' }} alt="pursuit" width="400" height="auto" />
 
         </div>
       )}
-    </>
+    </div>
   )
 };
 
