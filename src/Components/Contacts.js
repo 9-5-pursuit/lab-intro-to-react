@@ -1,4 +1,5 @@
 import ContactUserCard from "./ContactUserCard";
+import React from "react";
 
 const Contacts = () => {
   return (

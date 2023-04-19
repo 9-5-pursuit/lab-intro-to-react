@@ -1,10 +1,10 @@
-import ProfilePage from "./ProfilePage.png";
 import "./UserProfile.css";
+import React from "react";
 
 const UserProfile = () => {
   return (
-    <div className="profile">
-      <img src={ProfilePage.png}></img>
+    <div>
+      <img src="profile.png" alt="profile_img" />
       <h1>Jordan Walker</h1>
       <h2>React Creator</h2>
       <p>Lorem Ipsem</p>
