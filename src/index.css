@@ -9,3 +9,13 @@ body,
   height: 100%;
   width: 100%;
 }
+
+div {
+  border: 1px solid gold;
+}
+
+.App {
+  background-color: mintcream;
+  min-height: 100vh;
+}
+
