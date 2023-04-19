@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <div>
+      <div className="main">
         <UserProfile />
         <Contacts />
         <Posts />

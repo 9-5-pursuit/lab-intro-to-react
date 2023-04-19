@@ -9,3 +9,27 @@ body,
   height: 100%;
   width: 100%;
 }
+
+div {
+  border: 1px solid black;
+}
+
+.NavBar {
+  height: 50px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 17%;
+  gap: 5px;
+  padding: 5px;
+  height: fit-content;
+}
+
+.UserProfile {
+  height: fit-content;
+}
+.Posts {
+  text-align: center;
+}

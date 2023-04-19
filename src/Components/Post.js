@@ -7,7 +7,7 @@ const data = {
 
 function Post() {
   return (
-    <div>
+    <div className="Post">
       <h3>{data.title}</h3>
       <p>{data.info}</p>
     </div>

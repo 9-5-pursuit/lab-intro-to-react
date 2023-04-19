@@ -3,7 +3,7 @@ import Post from "./Post";
 
 function Posts() {
   return (
-    <div>
+    <div className="Posts">
       <h4>Posts</h4>
       <Post />
       <Post />
