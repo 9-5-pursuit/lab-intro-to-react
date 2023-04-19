@@ -3,6 +3,10 @@ body {
   margin: 0;
 }
 
+.App{
+  background-color: aquamarine;
+}
+
 html,
 body,
 #root {
