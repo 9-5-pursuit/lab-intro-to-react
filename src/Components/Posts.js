@@ -1,7 +1,15 @@
 
-const PostInfo = {
-  title: "User Title",
-  description: "Blog Post Description",
-};
+import Post from './Post'
 
-export default PostInfo;
+function Posts() {
+  return (
+      <div>
+          <h4>Posts</h4>
+      <Post />
+      <Post />
+      <Post />
+    </div>
+  );
+}
+
+export default Posts

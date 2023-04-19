@@ -1,12 +1,11 @@
 
 
- function Post() {
-   return (
-     <div className="post">
-       <h3>Title</h3>
-       <p>Lorem Ipsem </p>
-     </div>
-   );
- }
+import React from 'react'
 
- export default Post;
+function Post() {
+  return (
+    <div>Post</div>
+  )
+}
+
+export default Post
