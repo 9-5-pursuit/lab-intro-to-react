@@ -1,8 +1,14 @@
 import React from 'react'
+import Post from './Post'
 
 function Posts() {
   return (
-    <h2>This is Post</h2>
+    <>    
+    <Post/>
+    <Post/>
+    <Post/>
+    </>
+
   )
 }
 

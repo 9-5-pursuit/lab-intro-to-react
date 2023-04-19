@@ -7,13 +7,13 @@ import "./index.css";
 
 function App () {
   return (
-  <div className="App">
+  <>
       <NavBar />
       <UserProfile />
       <Posts />
       <Contacts />
 
-  </div>
+  </>
   )
 };
 

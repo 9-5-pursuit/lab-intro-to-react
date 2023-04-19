@@ -2,10 +2,12 @@ import React from 'react'
 
 function UserProfile() {
     
-  return (<>
-  <h2>This is user profile</h2>
-   
-  </>
+  return (
+  <div>
+    <img src="profile.png" alt="profile_img"/>
+    <h2>Mighty Hamster</h2>
+    <p>React Dev</p>
+  </div>
     
   )
 }

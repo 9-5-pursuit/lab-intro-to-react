@@ -2,9 +2,13 @@ import React from 'react'
 
 function NavBar() {
   return (
-    <>
-    <h2>This is NavBar</h2>
-    </>
+   <div>
+    <ul>
+        <li>What is Pursuit?</li>
+        <li>Create an account</li>
+        <li>Sign in</li>
+    </ul>
+   </div>
   )
 }
 
