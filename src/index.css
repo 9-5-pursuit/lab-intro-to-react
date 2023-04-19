@@ -64,3 +64,8 @@ button {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 100px 500px 500px 300px;
 }
+
+.usercard img {
+  height: auto;
+  width: 100px;
+}
