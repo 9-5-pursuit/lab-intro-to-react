@@ -1,3 +1,6 @@
+/* div {
+  border: 1px solid black;
+} */
 body {
   font-family: sans-serif;
   margin: 0;
@@ -8,4 +11,59 @@ body,
 #root {
   height: 100%;
   width: 100%;
+}
+
+.NavBar {
+  background-color: skyblue;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.NavBar button {
+  margin: 15px;
+}
+.Posts {
+  text-align: center;
+}
+.title {
+  margin: 40px;
+  padding: 10px;
+}
+.userProfile {
+  margin: 5px;
+  height: 250x;
+}
+.info {
+  text-align: center;
+}
+.contacts {
+  margin: 10px;
+}
+.main {
+  display: grid;
+  /* grid-template-columns: 2fr 1fr; */
+  grid-template-areas:
+    "userProf contacts"
+    "post contacts";
+
+  /* margin: 15px; */
+}
+.contactDiv,
+.postDiv,
+.userProfDiv,
+.titleDiv {
+  border: 1px solid black;
+  margin: 20px;
+}
+
+.userProfDiv {
+  grid-area: userProf;
+}
+.contactDiv {
+  grid-area: contacts;
+  text-align: center;
+}
+.postDiv {
+  grid-area: post;
 }
