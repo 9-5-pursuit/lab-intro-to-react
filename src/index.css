@@ -1,11 +1,76 @@
 body {
-  font-family: sans-serif;
-  margin: 0;
+    font-family: sans-serif;
+    margin: 0;
 }
 
 html,
 body,
 #root {
-  height: 100%;
-  width: 100%;
+    height: 100%;
+    width: 100%;
+}
+.userprofile {
+    margin: 40px;
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: 10vw auto;
+    width: 60vw;
+    height: 25vh;
+    grid-area: profile;
+}
+.navbar {
+    background-color: cyan;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.main {
+    display: grid;
+    grid-template-areas:
+        "profile profile contacts"
+        "posts posts contacts"
+        "posts posts contacts"
+        "posts posts contacts"
+        "posts posts contacts";
+}
+.navbar button {
+    margin: 10px;
+}
+
+.posts {
+    margin: 40px;
+    display: flex;
+    height: 60vh;
+    border: 1px solid;
+    width: 60vw;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    grid-area: posts;
+}
+.post {
+    display: flex;
+    margin: 10px;
+    border: 1px solid;
+    width: 55vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contacts {
+    margin: 40px;
+    border: 1px solid;
+    width: 25vw;
+    display: grid;
+    grid-area: contacts;
+    justify-content: center;
+}
+
+.contacts div {
+    border: 1px solid;
+    width: 20vw;
+    display: grid;
+    grid-template-columns: 10vw auto;
+    margin: 10px;
 }
