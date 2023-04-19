@@ -2,7 +2,7 @@
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import Navbar from "react-bootstrap/Navbar";
-import Logo from "../favicon.jpeg";
+import Logo from "../../assets/favicon.jpeg";
 
 const NavBar = () => {
   return (

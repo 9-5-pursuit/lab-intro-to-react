@@ -1,8 +1,8 @@
 import { Row, Col, Container } from "react-bootstrap";
-import NavBar from "./Components/NavBar";
-import UserProfile from "./Components/UserProfile";
-import Posts from "./Components/Posts";
-import Contacts from "./Components/Contacts";
+import NavBar from "./Components/navbar/NavBar";
+import UserProfile from "./Components/user/UserProfile";
+import Posts from "./Components/posts/Posts";
+import Contacts from "./Components/contacts/Contacts";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
