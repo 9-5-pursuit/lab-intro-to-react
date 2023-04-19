@@ -9,3 +9,79 @@ body,
   height: 100%;
   width: 100%;
 }
+
+div {
+  border: 1px solid black;
+}
+.navBar {
+  height: 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  justify-content: right;
+  background-color: lightblue;
+}
+.mainAll {
+  display: grid;
+  height: fit-content;
+  gap: 5px;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 17%;
+  padding: 10px;
+}
+
+.userProfile {
+  height: fit-content;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.userProfile img {
+  /* grid-column: 30%; */
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row: span 3;
+}
+.userProfile h2,
+.userProfile p {
+  grid-column-start: 2;
+  grid-row: auto;
+}
+/*-----------------------------------------*/
+
+.Contacts {
+  height: fit-content;
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+.Contacts h3 {
+  grid-column: span 2;
+}
+.ContactCard {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-column: span 2;
+}
+.ContactCard img {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row: span 3;
+}
+
+.ContactCard h2,
+.ContactCard p {
+  grid-column-start: 2;
+  grid-row: auto;
+}
+/*-------------------------------------*/
+.Posts {
+  justify-content: center;
+  text-align: center;
+  gap: 5px;
+  grid-row-start: 2;
+
+  max-height: 537.69;
+}
+.Post {
+  width: 500px;
+}
