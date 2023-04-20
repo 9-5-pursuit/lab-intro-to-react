@@ -6,6 +6,15 @@ body {
 html,
 body,
 #root {
+  background-color: rgb(174, 209, 241);
   height: 100%;
   width: 100%;
+}
+
+.user-profile {
+  background-color: rgb(249, 249, 243);
+}
+
+.contacts-card {
+  background-color: lightblue;
 }
