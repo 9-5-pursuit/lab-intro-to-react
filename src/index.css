@@ -9,3 +9,16 @@ body,
   height: 100%;
   width: 100%;
 }
+
+
+.mainContainer {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  column-gap: 40px;
+}
+
+aside {
+  border: 2px solid black;
+  padding: 16px;
+}
